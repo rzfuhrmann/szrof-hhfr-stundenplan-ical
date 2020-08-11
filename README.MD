@@ -17,14 +17,12 @@ Datenbank und iCal-Dienst werden zurzeit auf Server im Internet betrieben. Der i
 
 Der Import der Stundenplan-PDFs erfolgt aktuell über interne Server der Familie Fuhrmann/des Rechenzentrum Fuhrmann. 
 
-![Stundenplan von Gruppe 1.11 in Outlook](assets/outlook4.png)
-
-### iCal-Kalender abonnieren
+## iCal-Kalender abonnieren
 Der iCal-Dienst steht zurzeit unter folgender URL zur Verfügung:
 ```https://ical.simonefuhrmann.de/?gruppe=1.11```
 Dabei sollte ```1.11``` unbedingt durch die eigene Gruppenbezeichnung ersetzt werden. Wird anstelle einer Gruppenbezeichnung ```all``` eingesetzt, werden die Stundenpläne aller Gruppen abonniert. 
 
-#### iOS-Geräte
+### iOS-Geräte
 - Geräte-Einstellungen öffnen
 - Passwort & Accounts
 - Add Account / Account hinzufügen
@@ -34,7 +32,7 @@ Dabei sollte ```1.11``` unbedingt durch die eigene Gruppenbezeichnung ersetzt we
 - Name beliebig setzen
 - Abspeichern - fertig. :) 
 
-[Video: iOS-Einstellungen](assets/iossettings.mp4)
+[Video: iOS-Einstellungen](assets/iossettings.mp4) \
 ![Alt Text](assets/iossettings.gif)
 
 ### Microsoft Outlook
@@ -44,6 +42,7 @@ Dabei sollte ```1.11``` unbedingt durch die eigene Gruppenbezeichnung ersetzt we
 - "OK" > "Ja"
 - Fertig :) 
 
-![Kalender aus dem Internet öffnen: URL eingeben](assets/outlook1.png)
-![Klick auf "Erweitert"](assets/outlook2.png)
-![Sinnvollen Namen vergeben](assets/outlook3.png)
+![Kalender aus dem Internet öffnen: URL eingeben](assets/outlook1.png) \
+![Klick auf "Erweitert"](assets/outlook2.png) \
+![Sinnvollen Namen vergeben](assets/outlook3.png) \
+![Stundenplan von Gruppe 1.11 in Outlook](assets/outlook4.png)
