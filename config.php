@@ -15,6 +15,9 @@
     $_CONFIG = array(
         "database" => array(
             "icalserver" => include __DIR__."/credentials/database.icalserver.php"
+        ),
+        "importer" => array(
+            "importdir" => __DIR__ . '/_import/'
         )
     );
 
