@@ -1,5 +1,3 @@
-
-
 ## Allgemeines
 ---
 **HINWEIS**
@@ -26,6 +24,12 @@ Datenbank und iCal-Dienst werden zurzeit auf Server im Internet betrieben. Der i
 Der Import der Stundenplan-PDFs erfolgt aktuell über interne Server der Familie Fuhrmann/des Rechenzentrum Fuhrmann. Per Cronjob wird regelmäßig geprüft, ob neue PDF-Stundenpläne zur Verfügung stehen - falls ja startet [importPlan.php](importPlan.php). 
 
 ## iCal-Kalender abonnieren
+---
+**Disclaimer: Bitte nur eingeschränkt auf diese Daten verlassen**
+Da es sich hierbei um kein offizielles Projekt des Studienzentrums handelt - wofür ich aber natürlich jederzeit zur Verfügung stehe ;) -, ist nicht gewährleistet, dass die Daten _alle_, _vollständig_ und _korrekt_ importiert werden; dies bitte im Hinterkopf behalten. 
+Im Zweifelsfall gilt immer der Stundenplan des Studienzentrums - auch, wenn der auf Papier kommt. 
+
+---
 Der iCal-Dienst steht zurzeit unter folgender URL zur Verfügung:
 
 ```https://ical.simonefuhrmann.de/?gruppe=1.11```
