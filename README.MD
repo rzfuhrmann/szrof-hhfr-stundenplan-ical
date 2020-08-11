@@ -1,6 +1,6 @@
 ## Allgemeines
 ---
-**HINWEIS**
+**HINWEIS**\
 Dieses Projekt steht in keinerlei Verbindung mit dem Studienzentrum Rotenburg an der Fulda.  
 
 ---
@@ -25,7 +25,7 @@ Der Import der Stundenplan-PDFs erfolgt aktuell über interne Server der Familie
 
 ## iCal-Kalender abonnieren
 ---
-**Disclaimer: Bitte nur eingeschränkt auf diese Daten verlassen**
+**Disclaimer: Bitte nur eingeschränkt auf diese Daten verlassen**\
 Da es sich hierbei um kein offizielles Projekt des Studienzentrums handelt - wofür ich aber natürlich jederzeit zur Verfügung stehe ;) -, ist nicht gewährleistet, dass die Daten _alle_, _vollständig_ und _korrekt_ importiert werden; dies bitte im Hinterkopf behalten. 
 Im Zweifelsfall gilt immer der Stundenplan des Studienzentrums - auch, wenn der auf Papier kommt. 
 
