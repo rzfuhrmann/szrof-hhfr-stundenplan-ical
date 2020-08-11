@@ -12,6 +12,11 @@ Dieses Repository enthält im Wesentlichen zwei Skripte zum Importieren und Vera
 - [importPlan.php](importPlan.php) ruft ```pdf2htmlEX``` auf, um einen PDF-Stundenplan in HTML zu konvertieren und im Anschluss zu verarbeiten. Bei der Verarbeitung werden Wochentage, Gruppen, Stunden (und ihr Beginn und Ende), einzelne Vorlesungen und Dozentenkürzel erkannt, aufbereitet und in einer Datenbank gespeichert. 
 - [index.php](index.php) ruft die dadurch gewonnen Daten (zusammen mit einigen META-Informationen wie Verpflegungsplan und Standard-Räume) aus einer Datenbank ab und erzeugt daraus ein iCal-File, welches von Microsoft Outlook, Google Calendar oder Apple Calender abonniert werden kann. 
 
+### Kontakt
+Ich bin immer an Anregungen, konstruktiver Kritik und neuen Umsetzungsideen interessiert! Auch bei Fragen oder Problemen stehe ich gerne zur Verfügung. 
+
+E-Mail: szrof-hhfr-stundenplan-ical@sebastianfuhrmann.de
+
 ## Ziel
 Ziel ist es, Anwärtern des aktuellen 2020er-Jahrgangs möglichst schnell und komfortabel den Stundenplan, welcher bisher nur auf Papier oder als PDF verteilt wird, auf ihren Smartphones und PCs zur Verfügung zu stellen. Es ist sicherlich eine temporäre Lösung, die aber schnell umsetzbar war. 
 
