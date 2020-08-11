@@ -9,13 +9,16 @@ Dieses Projekt steht in keinerlei Verbindung mit dem Studienzentrum Rotenburg an
 
 Dieses Repository enthält im Wesentlichen zwei Skripte zum Importieren und Verarbeiten der vom Studienzentrum Rothenburg (Fulda) zur Verfügung gestellten PDF-Stundenpläne. 
 
-- [importPlan.php](importPlan.php) ruft ```pdf2htmlEX``` auf, um einen PDF-Stundenplan in HTML zu konvertieren und im Anschluss zu verarbeiten
+- [importPlan.php](importPlan.php) ruft ```pdf2htmlEX``` auf, um einen PDF-Stundenplan in HTML zu konvertieren und im Anschluss zu verarbeiten. Bei der Verarbeitung werden Wochentage, Gruppen, Stunden (und ihr Beginn und Ende), einzelne Vorlesungen und Dozentenkürzel erkannt, aufbereitet und in einer Datenbank gespeichert. 
 - [index.php](index.php) ruft die dadurch gewonnen Daten (zusammen mit einigen META-Informationen wie Verpflegungsplan und Standard-Räume) aus einer Datenbank ab und erzeugt daraus ein iCal-File, welches von Microsoft Outlook, Google Calendar oder Apple Calender abonniert werden kann. 
+
+## Ziel
+Ziel ist es, Anwärtern des aktuellen 2020er-Jahrgangs möglichst schnell und komfortabel den Stundenplan, welcher bisher nur auf Papier oder als PDF verteilt wird, auf ihren Smartphones und PCs zur Verfügung zu stellen. Es ist sicherlich eine temporäre Lösung, die aber schnell umsetzbar war. 
 
 ## Aktuelles Setup
 Datenbank und iCal-Dienst werden zurzeit auf Server im Internet betrieben. Der iCal-Kalender kann von jedem frei verfügbar abonniert werden - die Daten (Dozenten sowie Räume) werden hier allerdings anonymisiert. Nur für authentifizierte Nutzer (bitte anfragen) steht eine vollständige, nicht-anonymisierte Version zur Verfügung. 
 
-Der Import der Stundenplan-PDFs erfolgt aktuell über interne Server der Familie Fuhrmann/des Rechenzentrum Fuhrmann. 
+Der Import der Stundenplan-PDFs erfolgt aktuell über interne Server der Familie Fuhrmann/des Rechenzentrum Fuhrmann. Per Cronjob wird regelmäßig geprüft, ob neue PDF-Stundenpläne zur Verfügung stehen - falls ja startet [importPlan.php](importPlan.php). 
 
 ## iCal-Kalender abonnieren
 Der iCal-Dienst steht zurzeit unter folgender URL zur Verfügung:
