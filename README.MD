@@ -27,7 +27,9 @@ Der Import der Stundenplan-PDFs erfolgt aktuell über interne Server der Familie
 
 ## iCal-Kalender abonnieren
 Der iCal-Dienst steht zurzeit unter folgender URL zur Verfügung:
+
 ```https://ical.simonefuhrmann.de/?gruppe=1.11```
+
 Dabei sollte ```1.11``` unbedingt durch die eigene Gruppenbezeichnung ersetzt werden. Wird anstelle einer Gruppenbezeichnung ```all``` eingesetzt, werden die Stundenpläne aller Gruppen abonniert. 
 
 ### iOS-Geräte
