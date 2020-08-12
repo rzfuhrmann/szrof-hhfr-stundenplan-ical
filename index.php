@@ -9,7 +9,7 @@
      * 
      * @author      Sebastian Fuhrmann <sebastian.fuhrmann@rz-fuhrmann.de>
      * @copyright   (C) 2020 Sebastian Fuhrmann
-     * @version     2020-08-11
+     * @version     2020-08-13
      * 
      */
 
@@ -45,12 +45,13 @@
 	$ical .= "METHOD:PUBLISH\n";
 	$name_lookup = array(
 		"Meth" => "Methodenlehre",
-		"ESt" => "Einkommenssteuer",
-		"AO" => "Abgabenordnung?",
-		"ÖR" => "Öffentliches Recht?",
-		"Bil" => "Bilanzierung",
+		"ESt" => "Einkommensteuer",
+		"AO" => "Abgabenordnung",
+		"ÖR" => "Öffentliches Recht",
+		"Bil" => "Bilanzsteuerrecht",
 		"USt" => "Umsatzsteuer",
-		"PR" => "Privates Recht",
+		"PR" => "Privatrecht",
+		"Bew" => "Bewertung",
 	);
     $groups = array(); 
     
@@ -89,7 +90,11 @@
 		}
 	}
 
-    $group = "1.11";
+	$group = "1.11";
+	if (isset($_REQUEST["gruppe"]) && isset($groups[$_REQUEST["gruppe"]])){
+		$group = $_REQUEST["gruppe"]; 
+	} 
+
 	$allgroups = array($group => $groups[$group]); 
 	if (isset($_REQUEST["gruppe"]) && $_REQUEST["gruppe"] == "all"){
 		$allgroups = $groups;
