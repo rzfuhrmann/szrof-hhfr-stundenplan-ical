@@ -49,6 +49,34 @@ Dabei sollte ```1.11``` unbedingt durch die eigene Gruppenbezeichnung ersetzt we
 [Video: iOS-Einstellungen](assets/iossettings.mp4) \
 ![Alt Text](assets/iossettings.gif)
 
+### Android-Geräte
+Für Android-Geräte gibt es leider keine einheitliche und schnelle Lösung. Die beiden Optionen hier beschreiben Möglichkeiten, mit denen der iCal-Kalender abonniert und dem zentralen Geräte-Kalender hinzugefügt werden kann. 
+
+Bitte beachten, dass es zahlreiche andere Apps geben kann, die iCal-Abonnements unterstützen und auch gut funktionieren (Vorschläge gern an ical-hhfr@rz-fuhrmann.de). Bei der Wahl einer App sollte auf folgendes geachtet werden: 
+- die oben angegebene URL muss _abonniert_ und nicht nur einmalig heruntergeladen werden
+- ein angemessener Aktualisierungsintervall ist etwa eine Stunde
+
+#### Android: Google Kalender
+---
+**Achtung: Aktualisierungsintervall!**\
+Google Kalender aktualisiert die abonnierten/importierten Kalender leider nur alle 24 Stunden - oder noch seltener. Das reicht gerade noch aus, nur werden kurzfristige Änderungen dann viel zu kurzfristig mitgeteilt. 
+
+---
+Der Vorteil beim Abonnieren des iCal-Kalenders über Google Kalender besteht darin, dass der Kalender automatisch auf alle Android-Geräte synchronisiert wird, die diesen Google-Account verwenden. 
+
+- [calendar.google.com](https://calendar.google.com/) im Browser öffnen
+- Links bei "Weitere Kalender" auf das "+"
+- Klick auf "Per URL"
+- URL (siehe oben) eingeben
+- Haken bei "Kalender öffentlich machen" entfernen falls gesetzt
+- Klick auf "Kalender hinzufügen"
+- Der Kalender sollte dann mit der URL in der Kalenderliste links angezeigt werden. Diesen Dort auswählen und einen sinnvollen Namen (z.B. "HHFR Gruppe 1.x") vergeben. 
+- Der Kalender sollte dann auch auf dem Smartphone angezeigt werden. 
+
+#### Android: App ICSx⁵ – Webcal & .ics-Kalender-Sync
+Über die App [ICSx⁵ – Webcal & .ics-Kalender-Sync](https://play.google.com/store/apps/details?id=at.bitfire.icsdroid&hl=de) (kostet einen Obulus) lassen sich iCal-Kalender sehr komfortabel auf dem Android-Smartphone abonnieren und direkt in den Geräte-Kalender importieren, sodass sie auch von anderen Apps genutzt werden können. Auch der Aktualisierungsintervall lässt sich beliebig einstellen. 
+
+
 ### Microsoft Outlook
 - Kalender öffnen
 - "Aus dem Internet..." > URL eingeben > OK
