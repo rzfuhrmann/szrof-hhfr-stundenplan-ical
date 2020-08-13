@@ -59,7 +59,7 @@ Bitte beachten, dass es zahlreiche andere Apps geben kann, die iCal-Abonnements 
 #### Android: Google Kalender
 ---
 **Achtung: Aktualisierungsintervall!**\
-Google Kalender aktualisiert die abonnierten/importierten Kalender leider nur alle 24 Stunden - oder noch seltener. Das reicht gerade noch aus, nur werden kurzfristige Änderungen dann viel zu kurzfristig mitgeteilt. 
+Google Kalender aktualisiert die abonnierten/importierten Kalender leider nur alle 24 Stunden - oder noch seltener. Das reicht gerade noch aus, doch werden kurzfristige Änderungen möglicherweise nicht rechtzeitig angezeigt. 
 
 ---
 Der Vorteil beim Abonnieren des iCal-Kalenders über Google Kalender besteht darin, dass der Kalender automatisch auf alle Android-Geräte synchronisiert wird, die diesen Google-Account verwenden. 
@@ -74,7 +74,7 @@ Der Vorteil beim Abonnieren des iCal-Kalenders über Google Kalender besteht dar
 - Der Kalender sollte dann auch auf dem Smartphone angezeigt werden. 
 
 #### Android: App ICSx⁵ – Webcal & .ics-Kalender-Sync
-Über die App [ICSx⁵ – Webcal & .ics-Kalender-Sync](https://play.google.com/store/apps/details?id=at.bitfire.icsdroid&hl=de) (kostet einen Obulus) lassen sich iCal-Kalender sehr komfortabel auf dem Android-Smartphone abonnieren und direkt in den Geräte-Kalender importieren, sodass sie auch von anderen Apps genutzt werden können. Auch der Aktualisierungsintervall lässt sich beliebig einstellen. 
+Über die App [ICSx⁵ – Webcal & .ics-Kalender-Sync](https://play.google.com/store/apps/details?id=at.bitfire.icsdroid&hl=de) (kostet einen Obulus im Play Store, gibt es aber auch [bei F-Droid](https://f-droid.org/de/packages/at.bitfire.icsdroid/)) lassen sich iCal-Kalender sehr komfortabel auf dem Android-Smartphone abonnieren und direkt in den Geräte-Kalender importieren, sodass sie auch von anderen Apps genutzt werden können. Auch der Aktualisierungsintervall lässt sich beliebig einstellen. 
 
 
 ### Microsoft Outlook
