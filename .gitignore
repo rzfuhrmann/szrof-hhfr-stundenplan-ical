@@ -1,0 +1,7 @@
+_import/archive/*.pdf
+*.json
+credentials/*
+lib/*
+Thumbs.db
+
+db.sql

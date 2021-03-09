@@ -55,7 +55,7 @@
     $files = scandir($_CONFIG["importer"]["importdir"]); 
     foreach ($files as $file){
         $fn = $_CONFIG["importer"]["importdir"] . $file;
-        if (preg_match("~KW[0-9]{1,2}-[^-]+-HHFR-[a-z]\.pdf~i", $file) && is_file($fn)){
+        if (preg_match("~KW[0-9]{1,2}([a-z]+)?(-[^-]+)?-HHFR-[a-z][0-9]?(-GS1)?\.pdf~i", $file) && is_file($fn)){
             echo "Importing ".$fn."...\n"; 
 
             $fn_html = preg_replace("~\.pdf$~i", ".html", $file); 
@@ -124,8 +124,8 @@
                     // look for groups
                     foreach ($allcells as $gcell){
                         if (
-                            $gcell["x"] > $this_day["x"] - 0.3*$this_day["w"]
-                            && $gcell["x"] < $this_day["x"] + $this_day["w"] + 0.3*$this_day["w"]
+                            $gcell["x"] > $this_day["x"] - 0.5*$this_day["w"]
+                            && $gcell["x"] < $this_day["x"] + $this_day["w"] + 0.5*$this_day["w"]
                             && $gcell["y"] < $this_day["y"] - $this_day["h"]
                             && $gcell["y"] > $this_day["y"] - (3*$this_day["h"])
                             //&& $gcell["y"] < $this_day["y"] + 2*$this_day["h"]
